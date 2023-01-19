@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Blatant' ;
+    src: url(./Fonts/Blatant.otf);
+    font-weight: normal ;
+    font-style: normal;
+  
+}
+
+body{
+    font-family: "Blatant";
+    color:black;
+
+}
+
+/* NAV CSS */
+
+#logo{
+    height: 75px;
+    padding-left: 2em;
+}
+
+.nav-link{
+
+    color: white;
+}
+
+.nav-link :hover{
+
+    background-color: white;
+    color: #222d69;
+
+}
+
+#contact-button{
+    background-color: #222d69;
+    color: white;
+    border-radius: 20px;
+    padding: 0.35em;
+
+}
+
+#contact-button:hover{
+    background-color: white;
+    color: #222d69;
+}

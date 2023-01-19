@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Blatant' ;
+    src: url(./Fonts/Blatant.otf);
+    font-weight: normal ;
+    font-style: normal;
+  
+}
+
+body{
+    font-family: "Blatant";
+    color:black;
+
+}
+
+/* NAV CSS */
+
+#logo{
+    height: 75px;
+    padding-left: 2em;
+}
+
+.nav-link{
+
+    color: white;
+}
+
+.nav-link :hover{
+
+    background-color: white;
+    color: #222d69;
+
+}
+
+#contact-button{
+    background-color: #222d69;
+    color: white;
+    border-radius: 20px;
+    padding: 0.35em;
+
+}
+
+#contact-button:hover{
+    background-color: white;
+    color: #222d69;
+}
+
+
+/*  Button Whatsapp */
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:20px;
+    right:20px;
+    background-color:#25d366;
+    
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    filter: contrast(0.8);
+
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #25d366;
+    background: #fff;
+}
+
+
+.whatsapp-icon {
+    margin-top:13px;
+  }
+
+
+
+/* Parallax Effect */
+
+.parallax-effect{
+
+  background-image: url("./Images/imgCompress/feenix_bg_N\ azul_06.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+
+
+
+
+
+
