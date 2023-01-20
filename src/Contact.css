@@ -47,13 +47,14 @@ body{
 
 /*  Button Whatsapp */
 
+/* Button whatsapp size */
 .btn-wsp{
     position:fixed;
     width:60px;
     height:60px;
     bottom:20px;
     right:20px;
-    background-color:#25d366;
+    background-color:#222d69;
     
     color:#FFF;
     border-radius:50px;
@@ -64,16 +65,18 @@ body{
 
 }
 
+/* button whatsapp animation */
 .btn-wsp:hover{
     text-decoration: none;
-    color: #25d366;
+    color: #222d69;
     background: #fff;
 }
 
-
+/* Whatsapp icon */
 .whatsapp-icon {
     margin-top:13px;
   }
+
 
 
 
@@ -81,7 +84,7 @@ body{
 
 .parallax-effect{
 
-  background-image: url("./Images/imgCompress/feenix_bg_N\ azul_06.jpg");
+  background-image: url("./Images/backgroundsImages/N_Background_Opacity.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
