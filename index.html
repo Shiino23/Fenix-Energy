@@ -42,8 +42,8 @@
 
           <!-- Menu -->
           
-        <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
-          <ul class="navbar-nav me-3" style="font-size: 22px;">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-3 " style="font-size: 22px;">
             <li class="nav-item ">
               <a class="nav-link fs-5 p-3" aria-current="page" href="./index.html">Inicio</a>
             </li>
@@ -69,8 +69,8 @@
             <li class="nav-item ">
               <a class="nav-link fs-5 p-3" href="./Nosotros.html">Consultoría</a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link fs-5 mt-2 p-md-3" href="./Contact.html" id="contact-button">Contacto</a>
+            <li class="nav-item " id="contact-button">
+              <a class="nav-link fs-5 p-3" href="./Contact.html" >Contacto</a>
             </li>
 
 
@@ -83,73 +83,79 @@
 
       <!-- Slider images display -->
 
-    <main>
+    <main class="w-100">
+
+      <!-- whatsapp button fixed -->
       <a href="https://api.whatsapp.com/send?phone=5491138598153" class="btn-wsp" target="_blank">
         <i class="fa fa-whatsapp whatsapp-icon"></i>
       </a>
-
-      <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-          <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="overlay-image" style="background-image: url('./src/Images/backgroundsImages/Solar_Panels_Opacity.jpg');">
-              <div class="d-flex h-100 align-items-center justify-content-center">
-                <h1 class="row fs-1">Energias Renovables</h1>
+      <section>
+        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="overlay-image" style="background-image: url('./src/Images/backgroundsImages/Solar_Panels_Opacity.jpg');">
+                <div class="d-flex h-100 align-items-center justify-content-center">
+                  <h2 class="fs-1">Energias Renovables</h2>
+                </div>
               </div>
+              <div class="container-carousel"></div>
+  
             </div>
-            <div class="container-carousel"></div>
-
-          </div>
-          <div class="carousel-item">
-            <div class="overlay-image" style="background-image: url('./src/Images/backgroundsImages/Gas_Station_Opacity.jpg');">
-              <div class="d-flex h-100 align-items-center justify-content-center">
-                <h1 class="row fs-1">Gas Licuado</h1>
+            <div class="carousel-item">
+              <div class="overlay-image" style="background-image: url('./src/Images/backgroundsImages/Gas_Station_Opacity.jpg');">
+                <div class="d-flex h-100 align-items-center justify-content-center">
+                  <h2 class="fs-1">Gas Licuado</h2>
+                </div>
               </div>
+              <div class="container-carousel"></div>
+  
             </div>
-            <div class="container-carousel"></div>
-
-          </div>
-          <div class="carousel-item">
-            <div class="overlay-image" style="background-image: url('./src/Images/backgroundsImages/Carrousel_pipes_Opacity.jpg');">
-              <div class="d-flex h-100 align-items-center justify-content-center">
-                <h1 class="row fs-1">Gas Natural</h1>
+            <div class="carousel-item">
+              <div class="overlay-image" style="background-image: url('./src/Images/backgroundsImages/Carrousel_pipes_Opacity.jpg');">
+                <div class="d-flex h-100 align-items-center justify-content-center">
+                  <h2 class="fs-1">Gas Natural</h2>
+                </div>
               </div>
+              <div class="container-carousel"></div>
+  
             </div>
-            <div class="container-carousel"></div>
-
           </div>
-        </div>
-
-        <!-- Carousel Buttons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>  
+  
+          <!-- Carousel Buttons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>  
+      </section>
+      
 
       
           
 
-  <!-- Nosotros -->
-
-      <div class="container mb-5" id="bg" style="color: #fff ;">
+    <!-- Nosotros -->
+      <section>
+        <div class="container mb-5" id="bg" style="color: #fff ;">
           <br>
           <h1 class="container" style="font-weight: 20px; font-size: 65px; text-shadow: 4px 4px 12px #212529;"><b>Nosotros</b></h1>
-          <hr class="about-line">
+          <hr class="f-line w-75 h-25">
           <h5 class="container"> 
             Somos una empresa joven con visión sustentable y responsable del medio ambiente, conformada por un equipo multidisciplinario de profesionales dedicados al gas natural, al mercado eléctrico y a las energías renovables, con experiencia en diversos mercados, tanto en la Argentina como en el exterior.
           </h5>
           <br>
             
       </div>
+      </section>
+      
     </main>
 
 
@@ -160,33 +166,33 @@
 
           
 
-  <!--  Cards Display -->
-  <section>
-    <div class="container-fluid mb-2">
-        <div class="row justify-content-evenly mt-3 mb-5 mb-md-2">
-          <div class="col-lg-3 col-md-6 col-sm-12 p-2  mt-3 mb-3" style="background-image: url('./src/Images/imgCompress/IndustriaMar.jpeg');" id="card-frame"></div>
-          <div class="col-lg-3 col-md-6 col-sm-12 p-2  mt-3 mb-3" style="background-image: url('./src/Images/imgCompress/DuctosHaciaFabrica.jpeg');" id="card-frame"></div>
-          <div class="col-lg-3 col-md-6 col-sm-12 p-2  mt-3 mb-3" style="background-image: url('./src/Images/imgCompress/AerogeneradoresPaneles.jpg');" id="card-frame"></div>
-          <div class="col-lg-3 col-md-6 col-sm-12 p-2  mt-3 mb-3" style="background-image: url('./src/Images/imgCompress/iStock-1328819052\ \(1\).jpg');" id="card-frame"></div>
+    <!--  Cards Display -->
+    <section>
+      <div class="container-fluid mb-2">
+          <div class="row justify-content-evenly mt-3 mb-5 mb-md-2">
+            <div class="col-lg-3 col-md-6 col-sm-12 p-2  mt-3 mb-3" style="background-image: url('./src/Images/imgCompress/IndustriaMar.jpeg');" id="card-frame"></div>
+            <div class="col-lg-3 col-md-6 col-sm-12 p-2  mt-3 mb-3" style="background-image: url('./src/Images/imgCompress/DuctosHaciaFabrica.jpeg');" id="card-frame"></div>
+            <div class="col-lg-3 col-md-6 col-sm-12 p-2  mt-3 mb-3" style="background-image: url('./src/Images/imgCompress/AerogeneradoresPaneles.jpg');" id="card-frame"></div>
+            <div class="col-lg-3 col-md-6 col-sm-12 p-2  mt-3 mb-3" style="background-image: url('./src/Images/imgCompress/iStock-1328819052\ \(1\).jpg');" id="card-frame"></div>
 
-        </div>
+          </div>
 
 
-    </div>
+      </div>
 
-  </section>
+    </section>
 
 
 
     <br><br>
     <footer>
-          <!-- Menu de Contacto -->
+          <!-- Footer -->
         <div class="container-fluid fs-20">
           <div class="row">
             <div class="col-lg-3 col-md-8 col-sm-12">
                 <img src="./src/Images/logos/FenixW-NB.png" alt="" class="w-100 m-5 pe-5 pt-3" >
             </div>
-            <div class="d-flex col-lg-1 col-md-1 mt-4 d-none d-lg-block d-xl-none" style="height: 200px;">
+            <div class="d-flex col-lg-1 mt-4 d-none d-lg-block d-xl-none" style="height: 200px;">
               <div class="vr" ></div>
             </div>
             <div class="col-lg-8 col-md-4">
@@ -209,15 +215,15 @@
                     <li>Viamonte 1660, Piso 5, Of.10</li>
                     <li>Buenos Aires, CABA <br> Argentina</li>
                     <br>
-                    <li>Telefono: <br> 11 2682 0819</li>
+                    <li>Telefono: <br> +54 9 11 3859-8153</li>
                     <br>
                     <li>Email: <br> contacto@fenixenergy.com</li>
                   </ul>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                  <hr class="f-line w-75"></hr>
-                  <i class="fa fa-whatsapp whatsapp-icon m-3" style="font-size: 70px; position: relative; display: block;"></i>
-                  <i class="fa fa-linkedin m-3" aria-hidden="true" style="font-size: 70px; position: relative; display: block;"></i>
+                <div class="col-lg-4 col-md-12 mt-md-3">
+                  <hr class="f-line w-50 d-none d-lg-block"></hr>
+                  <a href="https://api.whatsapp.com/send?phone=5491138598153" class="text-decoration-none d-lg-block d-md-block text-md-center mb-md-3"><i class="fa fa-whatsapp whatsapp-icon ms-lg-5 mb-lg-3" id="whatsapp-icon-footer"></i></a>
+                  <i class="fa fa-linkedin ms-lg-5 mt-lg-3 d-lg-block d-md-block text-md-center mt-md-3" aria-hidden="true" id="linkedin-icon-footer"></i>
 
                 </div>
                 

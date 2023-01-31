@@ -53,9 +53,7 @@ body{
 #contact-button{
 
     background-color: #222d69;
-    background-size:cover;
-    color: white;
-    height: 45px;
+    max-width: fit-content;
     -webkit-transform: skewX(-10deg);
     -moz-transform: skewX(-10deg);
     -ms-transform: skewX(-10deg);
@@ -63,11 +61,6 @@ body{
     transform: skewX(-10deg);
     
 
-}
-
-#contact-button::after{
-    content:''
-    
 }
 
 
@@ -118,6 +111,7 @@ body{
 /* Carousel size */
 .carousel-item{
     height: 100vh;
+    width: 100vw;
     background-color: #21252909;
     color: white;
     position: relative;
@@ -126,7 +120,7 @@ body{
 
 }
 
-/* Caouse position */
+/* Carousel position */
 .container-carousel{
     position:absolute;
     bottom: 0;
@@ -219,6 +213,12 @@ footer{
 }
 
 
+#whatsapp-icon-footer, #linkedin-icon-footer{
+    font-size: 70px;  
+
+}
+
+
 
 
 
@@ -267,21 +267,14 @@ footer{
   
   
   @media only screen and (max-width: 600px) {
+
+    * { border: 1px solid red!important; }
+    
     #logo{
         height: 60px;
         padding-left: 0px;
 }
 
-.overlay-image{
-    position:absolute;
-    bottom: 0;
-    left:0;
-    right:0;
-    top: 0;
-    background-position:center;
-    background-size: cover;
-    opacity: 1;
-}
 
 #contact-button{
 
