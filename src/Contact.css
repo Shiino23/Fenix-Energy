@@ -1,101 +1,16 @@
-@font-face {
-    font-family: 'Blatant' ;
-    src: url(./Fonts/Blatant.otf);
-    font-weight: normal ;
-    font-style: normal;
-  
-}
-
-body{
-    font-family: "Blatant";
-    color:black;
-
-}
-
-/* NAV CSS */
-
-#logo{
-    height: 75px;
-    padding-left: 2em;
-}
-
-.nav-link{
-
-    color: white;
-}
-
-.nav-link :hover{
-
-    background-color: white;
-    color: #222d69;
-
-}
-
-#contact-button{
-    background-color: #222d69;
-    color: white;
-    border-radius: 20px;
-    padding: 0.35em;
-
-}
-
-#contact-button:hover{
-    background-color: white;
-    color: #222d69;
+*{
+    color: #ffff;
 }
 
 
-/*  Button Whatsapp */
-
-/* Button whatsapp size */
-.btn-wsp{
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:20px;
-    right:20px;
-    background-color:#222d69;
-    
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
-    z-index:100;
-    filter: contrast(0.8);
-
+#whatsapp-icon-footer, #linkedin-icon-footer{
+    font-size: 150px;
 }
 
-/* button whatsapp animation */
-.btn-wsp:hover{
-    text-decoration: none;
-    color: #222d69;
-    background: #fff;
-}
-
-/* Whatsapp icon */
-.whatsapp-icon {
-    margin-top:13px;
-  }
-
-
-
-
-/* Parallax Effect */
-
-.parallax-effect{
-
-  background-image: url("./Images/backgroundsImages/N_Background_Opacity.jpg");
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+#email-icon, #phone-icon{
+    font-size: 100px;
 
 }
-
-
-
 
 
 

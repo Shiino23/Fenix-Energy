@@ -43,7 +43,6 @@ body{
 
 .nav-link :hover{
 
-    background-color: white;
     color: #222d69;
 
 }
@@ -53,12 +52,14 @@ body{
 #contact-button{
 
     background-color: #222d69;
+    border: 1px solid #FFFFFF;
     max-width: fit-content;
     -webkit-transform: skewX(-10deg);
     -moz-transform: skewX(-10deg);
     -ms-transform: skewX(-10deg);
     -o-transform: skewX(-10deg);
     transform: skewX(-10deg);
+    transition: 1.1s;
     
 
 }
@@ -67,6 +68,7 @@ body{
 #contact-button:hover{
     background-color: white;
     color: #222d69;
+    border: 2px solid #222d69;
     
 }
 
