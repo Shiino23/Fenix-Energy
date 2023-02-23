@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
     crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="src/style.CSS">
     <link rel="icon" type="image/x-icon" href="./src/Images/icons/N-icon.svg">
@@ -108,7 +109,7 @@
   
             </div>
             <div class="carousel-item">
-              <div class="overlay-image" style="background-image: url('./src/Images/backgroundsImages/Gas_Station_Opacity.jpg');">
+              <div class="overlay-image" style="background-image: url('./src/Images/imgCompress/DuctosFabrica.jpg');">
                 <div class="d-flex h-100 align-items-center justify-content-center">
                   <h2 class="fs-1 text-uppercase">Gas Licuado</h2>
                 </div>
@@ -145,7 +146,7 @@
 
     <!-- Nosotros -->
       <section>
-        <div class="container mb-5" id="bg" style="color: #fff ;">
+        <div class="container mb-5" id="bg" style="color: #fff ;" data-aos="fade-right">
           <br>
           <h1 class="container" style="font-weight: 20px; font-size: 65px; text-shadow: 4px 4px 12px #212529;"><b>Nosotros</b></h1>
           <hr class="f-line w-50 h-25">
@@ -165,13 +166,20 @@
 
     <!--  Cards Display -->
     <section>
-      <div class="container-fluid mb-2">
-          <div class="row justify-content-evenly mt-3 mb-5 mb-md-2">
-            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/IndustriaMar.jpeg');" id="card-frame"></div>
-            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/DuctosHaciaFabrica.jpeg');" id="card-frame"></div>
-            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/AerogeneradoresPaneles.jpg');" id="card-frame"></div>
-            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/iStock-1328819052\ \(1\).jpg');" id="card-frame"></div>
-
+      <div class="container-fluid mb-2 " data-aos="fade-right">
+          <div class="row justify-content-evenly mt-3 mb-5 mb-md-2" >
+            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/IndustriaMar.jpeg');" id="card-frame" >
+              <h2 class="text-center align-items-center d-none" style="color: #222d69">Asesoramiento</h2>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/AerogeneradoresPaneles.jpg');" id="card-frame">
+              <h2 class="text-center align-items-center d-none" style="color: #222d69">Sustentabilidad</h2>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/AsesoriaCarrousel.jpg');" id="card-frame">
+              <h2 class="text-center align-items-center d-none" style="color: #222d69">Consultoria & Terciarización</h2>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/GNC.png');" id="card-frame">
+              <h2 class="text-center align-items-center d-none" style="color: #222d69">GNL</h2>
+            </div>
           </div>
 
 
@@ -232,6 +240,14 @@
     </footer>
       <!-- bootstrap 5.2.3 -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+      <script>
+        AOS.init({
+          duration: 1000,
+          once: true
+        });
+      </script>
       
       <script>
         /* Navbar Scroll Effect */
@@ -278,7 +294,6 @@
 
           
         });
-
         </script>
 
 

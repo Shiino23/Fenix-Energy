@@ -8,7 +8,7 @@
 
 body{
     font-family: "Blatant";
-    color:black;
+    color:white;
 
 }
 
@@ -162,6 +162,8 @@ body{
 
 
 
+
+
 #cards {
     width:35vh;
     height: 210px;
@@ -216,6 +218,11 @@ footer{
     font-size: 70px;  
 
 }
+
+
+
+
+
 
 
 
