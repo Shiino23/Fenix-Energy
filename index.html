@@ -70,7 +70,7 @@
               <a class="nav-link fs-5 p-3" href="./Nosotros.html">Consultoría</a>
             </li>
             <li class="nav-item " id="contact-button">
-              <a class="nav-link fs-5 p-3" href="./Contact.html" >Contacto</a>
+              <a class="nav-link fs-5 p-3 pb-md-2" href="./Contact.html" >Contacto</a>
             </li>
 
 
@@ -104,6 +104,9 @@
                 <div class="d-flex h-100 align-items-center justify-content-center">
                   <h2 class="fs-1 text-uppercase">Energias Renovables</h2>
                 </div>
+                <div class="carousel-caption">
+                  <button type="button" class="btn btn-outline-primary mb-1" id="carrousel-btn">Ver más</button>
+                </div>
               </div>
               <div class="container-carousel"></div>
   
@@ -113,6 +116,9 @@
                 <div class="d-flex h-100 align-items-center justify-content-center">
                   <h2 class="fs-1 text-uppercase">Gas Licuado</h2>
                 </div>
+                <div class="carousel-caption">
+                  <button type="button" class="btn btn-outline-primary mb-1" id="carrousel-btn">Ver más</button>
+                </div>
               </div>
               <div class="container-carousel"></div>
   
@@ -121,6 +127,9 @@
               <div class="overlay-image" style="background-image: url('./src/Images/backgroundsImages/Carrousel_pipes_Opacity.jpg');">
                 <div class="d-flex h-100 align-items-center justify-content-center">
                   <h2 class="fs-1 text-uppercase">Gas Natural</h2>
+                </div>
+                <div class="carousel-caption">
+                  <button type="button" class="btn btn-outline-primary mb-1" id="carrousel-btn">Ver más</button>
                 </div>
               </div>
               <div class="container-carousel"></div>
@@ -167,18 +176,22 @@
     <!--  Cards Display -->
     <section>
       <div class="container-fluid mb-2 " data-aos="fade-right">
-          <div class="row justify-content-evenly mt-3 mb-5 mb-md-2" >
+          <div class="row justify-content-evenly mt-3 mb-5 mb-md-2" id="cards-section">
             <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/IndustriaMar.jpeg');" id="card-frame" >
-              <h2 class="text-center align-items-center d-none" style="color: #222d69">Asesoramiento</h2>
-            </div>
+              <h2 class="text-card">Asesoramiento</h2>
+                <button class="mb-0" id="btn-card">Ver mas...</button>
+              </div>
             <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/AerogeneradoresPaneles.jpg');" id="card-frame">
-              <h2 class="text-center align-items-center d-none" style="color: #222d69">Sustentabilidad</h2>
+              <h2 class="text-card">Sustentabilidad</h2>
+              <button class="mb-0" id="btn-card">Ver mas...</button>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/AsesoriaCarrousel.jpg');" id="card-frame">
-              <h2 class="text-center align-items-center d-none" style="color: #222d69">Consultoria & Terciarización</h2>
+              <h2 class="text-card">Consultoria & Terciarización</h2>
+              <button class="mb-0" id="btn-card">Ver mas...</button>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/GNC.png');" id="card-frame">
-              <h2 class="text-center align-items-center d-none" style="color: #222d69">GNL</h2>
+              <h2 class="text-card">GNL</h2>
+              <button class="mb-0" id="btn-card">Ver mas...</button>
             </div>
           </div>
 
@@ -253,6 +266,7 @@
         /* Navbar Scroll Effect */
         var nav= document.querySelector('nav');
         var logo= document.querySelector('logo');
+        var mediaqueryList = window.matchMedia("(max-width: 920px)");
         
         window.addEventListener('scroll', function(){
           if(window.pageYOffset > 90){
@@ -276,6 +290,8 @@
 
 
 
+
+
         /* Carousel Events */
 
         const checkpoint = 950;
@@ -294,6 +310,24 @@
 
           
         });
+
+
+        /* Cards Hover */
+
+        function mOver(obj, text){
+
+          title.innerHTML = text;
+        };
+
+        function mOut(obj, text){
+
+          title.innerHTML = text;
+        };
+
+
+
+
+
         </script>
 
 

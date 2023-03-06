@@ -147,6 +147,16 @@ body{
 }
 
 
+/* Carrousel Button */
+
+#carrousel-btn{
+    border-radius: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+}
+
 
 /* About us Section */
 
@@ -188,6 +198,7 @@ body{
     -o-transform: skewX(-8deg);
     transform: skewX(-8deg);
     transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -196,15 +207,57 @@ body{
 
     width: 40vh;
     height: 200px;
-    filter: grayscale(100);
     transform: scale(1.2);
     
 }
 
+/* #cards-section > #card-frame:first-child:hover::after{
+    content: "Asesoramiento";
+    
+}
+
+#cards-section > #card-frame:nth-child(2):hover::after{
+    content: "Sustentabilidad";
+    height: 100px;text-align: center;
+}
+
+#cards-section > #card-frame:nth-child(3):hover::after{
+    content: "Consultoria & Terciarización";
+    height: 100px;text-align: center;
+}
+
+#cards-section > #card-frame:last-child:hover::after{
+    content: "GNL";
+    height: 100px;text-align: center;
+} */
+
+.text-card{ 
+    font-size: 35px;
+    text-align: center;
+    margin: 10px auto 0px;
+    color: #ffff;
+    background-color: #222d6934;
+
+}
+
+#btn-card {
+   background-color: transparent;
+   border: 2px solid #222d69;
+   color: #FFF;
+   cursor: pointer;
+   position: absolute;
+   right: 5px;
+   bottom: 2px;
+    
+}
+
+.text-card:hover{
+    visibility: visible;
+}
 
 
 
-
+/* Footer Section */
 
 
 footer{
@@ -235,15 +288,21 @@ footer{
   @media only screen and (max-width: 900px){
 
 
-    #contact-button{
+    nav{
+        background-color: #212529;
+    }
 
+    #contact-button{
+        background-color: transparent;
+        border: none;
         color: white;
-        height: 45px;
-        -webkit-transform: skewX(-10deg);
-        -moz-transform: skewX(-10deg);
-        -ms-transform: skewX(-10deg);
-        -o-transform: skewX(-10deg);
-        transform: skewX(-10deg);
+        height: 35px;
+        width: 50%;
+        -webkit-transform: skewX(0);
+        -moz-transform: skewX(0);
+        -ms-transform: skewX(0);
+        -o-transform: skewX(0);
+        transform: skewX(0);
         
     
     }
@@ -272,6 +331,27 @@ footer{
         
     }
 
+    .text-card{ 
+        font-size: 35px;
+        text-align: center;
+        margin: 10px auto 0px;
+        color: #ffff;
+        background-color: #222d6934;
+    
+    }
+
+    #btn-card {
+       background-color: transparent;
+       border: 2px solid #222d69;
+       color: #FFF;
+       cursor: pointer;
+       position: absolute;
+       right: 5px;
+       bottom: 2px;
+        
+    }
+
+
 
   }
   
@@ -279,7 +359,7 @@ footer{
   
   
   
-  
+  /* MOBILE MEDIA */
   
   
   @media only screen and (max-width: 600px) {
@@ -294,28 +374,33 @@ footer{
         background-size: cover;
     
     }
+
+    nav{
+        background-color: #212529;
+    }
     
     #logo{
         height: 60px;
         padding-left: 0px;
 }
     main{
-    box-sizing: border-box;
+        box-sizing: border-box;
         width: 100%;
     }
 
 
     #contact-button{
 
-        background-color: #222d69;
+        background-color: transparent;
+        border: none;
         background-size:cover;
         color: white;
         height: 45px;
-        -webkit-transform: skewX(-10deg);
-        -moz-transform: skewX(-10deg);
-        -ms-transform: skewX(-10deg);
-        -o-transform: skewX(-10deg);
-        transform: skewX(-10deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        transform: skewX(0deg);
         
 
     }
@@ -337,8 +422,8 @@ footer{
     }
 
     #card-frame:hover{
-        filter: grayscale(100);
         transform: scale(1.08);
+        visibility: visible;
 
     }
 
@@ -353,6 +438,33 @@ footer{
     
     }
 
+    .text-card{ 
+        font-size: 35px;
+        text-align: center;
+        margin: 10px auto 0px;
+        color: #ffff;
+        background-color: #222d6934;
+        
+
+    
+    }
+
+    #btn-card {
+       background-color: transparent;
+       border: 2px solid #222d69;
+       color: #FFF;
+       cursor: pointer;
+       position: absolute;
+       right: 5px;
+       bottom: 2px;
+
+
+        
+    }
+
+
+
+    
 
 
 }
