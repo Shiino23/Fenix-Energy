@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Blatant' ;
     src: url(./Fonts/Blatant.otf);
-    font-weight:lighter ;
+    font-weight: lighter;
     font-style: normal;
   
 }
@@ -37,13 +37,14 @@ body{
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transition: 0.5s;
     
 }
 
 
 .nav-link :hover{
-
-    color: #222d69;
+    background-color: #212529;
+    
 
 }
 
@@ -152,6 +153,7 @@ body{
 #carrousel-btn{
     border-radius: 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #FFF;
 
 
 
@@ -175,7 +177,7 @@ body{
 
 
 #cards {
-    width:35vh;
+    width: 50vh;
     height: 210px;
     background-size: cover;
     background-position: center;
@@ -186,7 +188,7 @@ body{
 }
 
 #card-frame{
-    width:40vh;
+    width:50vh;
     height: 200px; 
     border: 3px solid #fff; 
     background-position: center;
@@ -237,6 +239,7 @@ body{
     margin: 10px auto 0px;
     color: #ffff;
     background-color: #222d6934;
+    
 
 }
 

@@ -59,7 +59,7 @@
               </a>
               <ul class="dropdown-menu bg-dark">
                 <li>
-                  <a class="dropdown-item" href="./Nosotros.html">Gas Licuado</a>
+                  <a class="dropdown-item" href="./Nosotros.html">Gas Natural Licuado</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="./Nosotros.html">Gas Natural</a>
@@ -69,7 +69,7 @@
             <li class="nav-item ">
               <a class="nav-link fs-5 p-3" href="./Nosotros.html">Consultoría</a>
             </li>
-            <li class="nav-item " id="contact-button">
+            <li class="nav-item mb-md-3" id="contact-button">
               <a class="nav-link fs-5 p-3 pb-md-2" href="./Contact.html" >Contacto</a>
             </li>
 
@@ -160,9 +160,9 @@
       <section>
         <div class="container mb-5" id="bg" style="color: #fff ;" data-aos="fade-right">
           <br>
-          <h1 class="container" style="font-weight: 20px; font-size: 65px; text-shadow: 4px 4px 12px #212529;"><b>Nosotros</b></h1>
+          <h2 class="container" style="font-weight: lighter; font-size: 65px; text-shadow: 4px 4px 12px #212529;"><b>Nosotros</b></h2>
           <hr class="f-line w-50 h-25">
-          <h5 class="container"> 
+          <h5 class="container" style="font-weight: lighter;"> 
             Somos una empresa joven con visión sustentable y responsable del medio ambiente, conformada por un equipo multidisciplinario de profesionales dedicados al gas natural, al mercado eléctrico y a las energías renovables, con experiencia en diversos mercados, tanto en la Argentina como en el exterior.
           </h5>
           <br>
@@ -180,19 +180,16 @@
     <section>
       <div class="container-fluid mb-2 " data-aos="fade-right">
           <div class="row justify-content-evenly mt-3 mb-5 mb-md-2" id="cards-section">
-            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/IndustriaMar.jpeg');" id="card-frame" >
-              <h2 class="text-card">Se elimina</h2>
-                <button class="mb-0" id="btn-card">Ver mas...</button>
-              </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/AerogeneradoresPaneles.jpg');" id="card-frame">
+          
+            <div class="col-lg-4 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/AerogeneradoresPaneles.jpg');" id="card-frame">
               <h2 class="text-card">Sustentabilidad</h2>
               <button class="mb-0" id="btn-card">Ver mas...</button>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/AsesoriaCarrousel.jpg');" id="card-frame">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/AsesoriaCarrousel.jpg');" id="card-frame">
               <h2 class="text-card">Consultoria & Terciarización</h2>
               <button class="mb-0" id="btn-card">Ver mas...</button>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/GNC.png');" id="card-frame">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-lg-2 p-md-2 p-sm-0  mt-3 mb-3 ms-sm-0 me-sm-0" style="background-image: url('./src/Images/imgCompress/GNC.png');" id="card-frame">
               <h2 class="text-card">GNL</h2>
               <button class="mb-0" id="btn-card">Ver mas...</button>
             </div>
@@ -261,6 +258,7 @@
       <script>
         AOS.init({
           duration: 1000,
+          delay: 0,
           once: true
         });
       </script>
@@ -314,18 +312,6 @@
           
         });
 
-
-        /* Cards Hover */
-
-        function mOver(obj, text){
-
-          title.innerHTML = text;
-        };
-
-        function mOut(obj, text){
-
-          title.innerHTML = text;
-        };
 
 
 
