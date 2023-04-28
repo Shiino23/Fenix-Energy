@@ -3,15 +3,10 @@
 }
 
 
-#whatsapp-icon-footer, #linkedin-icon-footer{
-    font-size: 75px;
+#whatsapp-icon-footer, #linkedin-icon-footer, #email-icon, #location-icon{
+    font-size: 75px !important;
 }
 
-#email-icon, #location-icon{
-    font-size: 75px;
-    
-
-}
 
 input, textarea, button{
 
