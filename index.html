@@ -52,7 +52,10 @@
             <li class="nav-item ">
               <a class="nav-link fs-5 p-3" href="./Nosotros.html">Energias Revonables</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item ">
+              <a class="nav-link fs-5 p-3" href="./Nosotros.html">Gas Natural</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link fs-5 p-3 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Gas
               </a>
@@ -64,7 +67,7 @@
                   <a class="dropdown-item" href="./Nosotros.html">Gas Natural</a>
                 </li>
               </ul>
-            </li>
+            </li> -->
             <li class="nav-item ">
               <a class="nav-link fs-5 p-3" href="./Nosotros.html">Consultoría</a>
             </li>
@@ -101,10 +104,10 @@
             <div class="carousel-item active">
               <div class="overlay-image" style="background-image: url('./src/Images/imgCompress/Solar_Panels_Opacity-min.jpg');">
                 <div class="d-flex h-100 align-items-center justify-content-center">
-                  <h2 class="fs-1 text-uppercase">Energias Renovables</h2>
+                  <h2 class="fs-1 text-uppercase" style="font-size: 100px !important;">Energias Renovables</h2>
                 </div>
                 <div class="carousel-caption">
-                  <p>Servicio de comercialización de energía de fuentes renovables</p>
+                  <p class="text-uppercase" style=" font-size: 30px !important;">Servicio de comercialización de energía de fuentes renovables</p>
                   <button type="button" class="btn btn-outline-primary mb-1" id="carrousel-btn">Ver más</button>
                 </div>
               </div>
@@ -112,12 +115,12 @@
   
             </div>
             <div class="carousel-item">
-              <div class="overlay-image" style="background-image: url('./src/Images/imgCompress/DuctosFabrica-min.jpg');">
+              <div class="overlay-image" style="background-image: url('./src/Images/Consultoría\ Fénix\ Energy.png');">
                 <div class="d-flex h-100 align-items-center justify-content-center">
-                  <h2 class="fs-1 text-uppercase">Comercialización</h2>
+                  <h2 class="fs-1 text-uppercase" style="font-size: 100px !important;">Consultoría</h2>
                 </div>
                 <div class="carousel-caption">
-                  <p>Servicio de despacho de gas</p>
+                  <p class="text-uppercase" style=" font-size: 30px !important;">Eficiencia energética y mejora de procesos</p>
                   <button type="button" class="btn btn-outline-primary mb-1" id="carrousel-btn">Ver más</button>
                 </div>
               </div>
@@ -127,10 +130,10 @@
             <div class="carousel-item">
               <div class="overlay-image" style="background-image: url('./src/Images/imgCompress/Carrousel_pipes_Opacity-min.jpg');">
                 <div class="d-flex h-100 align-items-center justify-content-center">
-                  <h2 class="fs-1 text-uppercase">Gas Natural</h2>
+                  <h2 class="fs-1 text-uppercase" style="font-size: 100px !important;"> Gas Natural</h2>
                 </div>
                 <div class="carousel-caption">
-                  <p>Licitaciones y eficiencia en costos y consumo</p>
+                  <p class="text-uppercase" style=" font-size: 30px !important;">Comercialización y despacho</p>
                   <button type="button" class="btn btn-outline-primary mb-1" id="carrousel-btn">Ver más</button>
                 </div>
               </div>
@@ -176,7 +179,7 @@
           
 
     <!--  Cards Display -->
-    <section>
+    <!-- <section>
       <div class="container-fluid mb-2 ">
           <div class="row justify-content-evenly mt-3 mb-5 mb-md-2" id="cards-section">
           
@@ -197,11 +200,10 @@
 
       </div>
 
-    </section>
+    </section> -->
 
 
-
-    <br><br class="d-none d-lg-block d-md-block">
+    <br class="d-none d-lg-block d-md-block">
     <footer>
           <!-- Footer -->
         <div class="container-fluid fs-20">
@@ -232,9 +234,9 @@
                     <li>Cuba 2143 - Piso 6</li>
                     <li>Buenos Aires, CABA <br> Argentina</li>
                     <br>
-                    <li>Telefono: <br> +54 9 11 3859-8153</li>
+                    <li>Telefono: <br> +54 9 11 6742-6454</li>
                     <br>
-                    <li>Email: <br> contacto@fenixenergy.com</li>
+                    <li>Email: <br> comercial@fenixenergy.com</li>
                   </ul>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 mt-lg-0 mt-md-3">
@@ -263,7 +265,7 @@
           if(window.pageYOffset > 90){
             nav.classList.add('shadow');
             document.getElementById('navbar-tool').style.backgroundColor= "#212529";
-            document.getElementById('navbar-tool').style.transition="0.5s"
+            document.getElementById('navbar-tool').style.transition="0.3s smooth"
             document.getElementById("logo").src="./src/Images/logos/FenixW-NB.png";
             logo.classList.add('pt-3', 'mt-3');
             
@@ -272,7 +274,7 @@
           }else{
             nav.classList.remove('shadow');
             document.getElementById('navbar-tool').style.backgroundColor= ""
-            document.getElementById('navbar-tool').style.transition="0.5s"
+            document.getElementById('navbar-tool').style.transition="0.3s smooth"
             document.getElementById("logo").src="./src/Images/logos/FenixW-NW.png"
             logo.classList.remove('pt-3', 'mt-3');
             
