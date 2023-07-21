@@ -112,6 +112,18 @@ body{
 /* Carrousel CSS */
 
 /* Carousel size */
+
+#sliderTittles{
+
+    font-size: 100px !important;
+
+}
+
+#sliderCaptions{
+    font-size: 30px !important;
+}
+
+
 .carousel-item{
     height: 100vh;
     width: 100vw;
@@ -295,6 +307,16 @@ footer{
         background-color: #212529;
     }
 
+    #sliderTittles{
+
+        font-size: 60px !important;
+    
+    }
+
+    #sliderCaptions{
+        font-size: 20px !important;
+    }
+
     #contact-button{
         background-color: transparent;
         border: none;
@@ -380,6 +402,16 @@ footer{
 
     nav{
         background-color: #212529;
+    }
+
+    #sliderTittles{
+
+        font-size: 30px !important;
+    
+    }
+
+    #sliderCaptions{
+        font-size: 15px !important;
     }
     
     #logo{

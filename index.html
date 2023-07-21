@@ -42,40 +42,32 @@
           <!-- Menu -->
           
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav me-3 " style="font-size: 22px;">
+          <ul class="navbar-nav me-4 " style="font-size: 22px;">
             <li class="nav-item ">
               <a class="nav-link fs-5 p-3" aria-current="page" href="./index.html">Inicio</a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link fs-5 p-3" href="./Nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link fs-5 p-3" href="./Nosotros.html">Energias Revonables</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link fs-5 p-3" href="./Nosotros.html">Gas Natural</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link fs-5 p-3 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item dropdown">
+              <a class="nav-link fs-5 p-3 me-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Gas
               </a>
               <ul class="dropdown-menu bg-dark">
                 <li>
-                  <a class="dropdown-item" href="./Nosotros.html">Gas Natural Licuado</a>
+                  <a class="dropdown-item" href="./Services.html">Gas Natural</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./Nosotros.html">Gas Natural</a>
+                  <a class="dropdown-item" href="./Services.html">Energias Renovables</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./Services.html">Consultoría</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./Services.html">Sustentabilidad</a>
                 </li>
               </ul>
-            </li> -->
-            <li class="nav-item ">
-              <a class="nav-link fs-5 p-3" href="./Nosotros.html">Consultoría</a>
             </li>
             <li class="nav-item mb-md-3" id="contact-button">
               <a class="nav-link fs-5 p-3 pb-md-2" href="./Contact.html" >Contacto</a>
             </li>
-
-
           </ul>
             
         </div>
@@ -101,44 +93,47 @@
             <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+
+            <!-- 1er slide -->
+            <div class="carousel-item">
               <div class="overlay-image" style="background-image: url('./src/Images/imgCompress/Solar_Panels_Opacity-min.jpg');">
                 <div class="d-flex h-100 align-items-center justify-content-center">
-                  <h2 class="fs-1 text-uppercase" style="font-size: 100px !important;">Energias Renovables</h2>
+                  <h2 class="fs-1 text-uppercase text-center" id="sliderTittles">Energias Renovables</h2>
                 </div>
                 <div class="carousel-caption">
-                  <p class="text-uppercase" style=" font-size: 30px !important;">Servicio de comercialización de energía de fuentes renovables</p>
+                  <p class="text-uppercase" id="sliderCaptions">Servicio de comercialización de energía de fuentes renovables</p>
                   <button type="button" class="btn btn-outline-primary mb-1" id="carrousel-btn">Ver más</button>
                 </div>
               </div>
               <div class="container-carousel"></div>
   
             </div>
+            <!-- 2do slide -->
             <div class="carousel-item">
-              <div class="overlay-image" style="background-image: url('./src/Images/Consultoría\ Fénix\ Energy.png');">
+              <div class="overlay-image" style="background-image: url('./src/Images/imgCompress/AerogeneradoresPaneles.jpg');">
                 <div class="d-flex h-100 align-items-center justify-content-center">
-                  <h2 class="fs-1 text-uppercase" style="font-size: 100px !important;">Consultoría</h2>
+                  <h2 class="fs-1 text-uppercase text-center" id="sliderTittles">Sustentabilidad</h2>
                 </div>
                 <div class="carousel-caption">
-                  <p class="text-uppercase" style=" font-size: 30px !important;">Eficiencia energética y mejora de procesos</p>
+                  <p class="text-uppercase" id="sliderCaptions">Reducción de costos e impacto ambiental</p>
                   <button type="button" class="btn btn-outline-primary mb-1" id="carrousel-btn">Ver más</button>
                 </div>
               </div>
               <div class="container-carousel"></div>
   
             </div>
-            <div class="carousel-item">
+            <!-- 3er slide -->
+            <div class="carousel-item active">
               <div class="overlay-image" style="background-image: url('./src/Images/imgCompress/Carrousel_pipes_Opacity-min.jpg');">
                 <div class="d-flex h-100 align-items-center justify-content-center">
-                  <h2 class="fs-1 text-uppercase" style="font-size: 100px !important;"> Gas Natural</h2>
+                  <h2 class="fs-1 text-uppercase text-center" id="sliderTittles"> Gas Natural</h2>
                 </div>
                 <div class="carousel-caption">
-                  <p class="text-uppercase" style=" font-size: 30px !important;">Comercialización y despacho</p>
+                  <p class="text-uppercase" id="sliderCaptions">Comercialización y despacho</p>
                   <button type="button" class="btn btn-outline-primary mb-1" id="carrousel-btn">Ver más</button>
                 </div>
               </div>
-              <div class="container-carousel"></div>
-  
+              <div class="container-carousel"></div> 
             </div>
           </div>
   
