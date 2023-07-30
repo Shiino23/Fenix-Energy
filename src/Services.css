@@ -17,8 +17,11 @@
 @media only screen and (max-width: 900px){
 
     #imageServices{
-        height: 18rem !important; 
-        width: 100vw !important;
+        height: 12rem !important; 
+        width: 90vw !important;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
     }
 }
 
